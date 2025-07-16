@@ -1,0 +1,33 @@
+Esse documento serve para documentar as ferramentas e scripts utilizados no dia a dia. Será incrementado com o tempo.
+
+- Comando para matar um processo pelo ID
+    kill -id 123456
+
+- Comando para resetar as configs do roteador (Admin)
+    netsh winsock reset all
+
+- Comando para resetar o IP do Windows
+    ipconfig /release
+    ipconfig /renew
+
+- Comandos de ping e rota
+    ping 0.0.0.0
+    tracert 0.0.0.0
+
+- Comandos de criação de usuário
+    net user usuario senha
+
+- Comando para instalação de arquivo msi em modo passivo
+    C:\caminho\arquivo.msi /passive
+
+
+
+Ferramentas para verificação em geral (Mais voltados para cibersegurança)
+  nmap (Ferramenta de verificação de portas abertas)
+  wireshark (Ferramenta de análise de tráfego de rede)
+  burpsuite (Ferramenta de teste de segurança para aplicações web)
+  shodan (Ferramenta de busca por dispositivos conectados à internet)
+
+
+
+  
